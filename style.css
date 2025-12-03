@@ -1,0 +1,20 @@
+body{
+    color: rgb(32, 44, 78);
+    background: #6AA6DA;
+    margin: 0px;
+}
+
+header{
+    border-bottom: solid 4px rgb(32, 44, 78);
+    padding: 20px;
+    fort-size: 32px;
+    color: rgb(22, 31, 54);
+}
+
+section{
+    background: #5291c9;
+    padding-top: 60px;
+    padding-bottom: 60px;   
+    display: flex;
+    justifify-content: center;
+}
