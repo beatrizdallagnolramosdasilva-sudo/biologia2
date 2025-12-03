@@ -1,20 +1,44 @@
 body{
-    color: rgb(32, 44, 78);
+    color: rgb(67, 124, 230);
     background: #6AA6DA;
     margin: 0px;
+    font-family: "Purple Purse", sans-serif;
 }
 
 header{
-    border-bottom: solid 4px rgb(32, 44, 78);
+    border-bottom: solid  2px rgb(32, 44, 78);
     padding: 20px;
-    fort-size: 32px;
-    color: rgb(22, 31, 54);
+    font-size: 32px;
+    color:  rgb(22, 31, 54);
 }
 
-section{
+.chamada{
     background: #5291c9;
-    padding-top: 60px;
-    padding-bottom: 60px;   
+    padding-top: 80px;
+    padding-bottom: 80px;
     display: flex;
-    justifify-content: center;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 40px;
+}
+
+img{
+    height: 200px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
 }
